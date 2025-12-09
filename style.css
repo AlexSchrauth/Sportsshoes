@@ -5,5 +5,53 @@
    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
+/*
+=================================================
+MISC
+=================================================
+*/
+.quick-links i {
+  font-size: 3em;
+}
+.to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+}
+.nav-link {
+  color: #50a98a;
+}
+.nav-link:hover {
+  color:#3a7b64;
+}
+.btn-unique {
+  background-color: aquamarine;
+  color: #000;
+}
+.btn-unique:hover {
+  background-color: #50a98a;
+  color: #fff;
+}
 
+/*
+=================================================
+CAROUSEL
+=================================================
+*/
+.container {
+  display: flex;
+  justify-content: center; /* Centers the carousel horizontally */
+}
 
+.carousel {
+  max-width: 700px; /* Limits the carousel width to 700px */
+  width: 100%; /* Ensures the carousel remains responsive */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  height: 500px; /* Sets a fixed height for the images */
+  max-height: 500px; /* Ensures the images do not exceed 500px */
+  width: 100%; /* Ensures the images scale to the carousel width */
+}
